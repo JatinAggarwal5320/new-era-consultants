@@ -1,0 +1,2 @@
+# No external dependencies needed for the contact form API
+# The handler uses only Python standard library modules
