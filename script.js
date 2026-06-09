@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
       formStatus.className = 'form-status';
 
       try {
-        const response = await fetch('/api/contact', {
+        const response = await fetch('/api', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(data)
